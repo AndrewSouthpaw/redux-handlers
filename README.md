@@ -20,7 +20,7 @@ registerHandler('TOGGLE_TODO', toggleTodo)
 * 
 *     { type: 'SET_TODO_DATE', id: 42, dueDate: Date.now() }
 * 
-* If you use an action creator, it's easy to keep this in sync.
+* If you use an action creator, it's easier to keep this in sync.
 */
 export const setTodoDueDate = (id, dueDate, state) => { /* ... */ }
 registerHandler('SET_TODO_DUE_DATE', setTodoDueDate)
