@@ -2,7 +2,7 @@
 
 Compose your reducers with simple and testable functions, not switch statements.
 
-This library provides some simple glue-code that allows facilitates composing your reducers with isolated, testable functions.
+This library provides some simple glue-code that facilitates composing your reducers with isolated, testable functions.
 
 ## 💪 Usage
 
@@ -132,11 +132,3 @@ export const setTodoDueDate = ({ id, dueDate }, state) => { /* ... */ }
 ```
 
 ... but we found this to be an unpleasant experience for testing and adding types. We accepted it as worth the risk for this minor bug. In practice, it gets uncovered very quickly within the same dev cycle.
-
-#### Requires ES2017
-
-We're using `Object.values`, which is ES2017. Babel takes care of it for you, and chances are you're using it.
-
-"But wait, that's not safe! You can't guarantee values order with objects!"
-
-Technically, true. In practice, it's fine. There's many discussions on the web about this point. In the two years of using this pattern in production code, we have never encountered an error due to this potentiality.
