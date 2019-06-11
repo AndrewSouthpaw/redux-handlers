@@ -1,0 +1,23 @@
+{
+  "name": "redux-handlers",
+  "version": "1.0.0",
+  "description": "Compose your reducers with simple and testable functions, not switch statements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewSouthpaw/redux-handlers.git"
+  },
+  "keywords": [
+    "redux",
+    "reducer"
+  ],
+  "author": "Andrew Smith <andrewsmith@alumni.stanford.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewSouthpaw/redux-handlers/issues"
+  },
+  "homepage": "https://github.com/AndrewSouthpaw/redux-handlers#readme"
+}
