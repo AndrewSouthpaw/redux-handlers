@@ -1,6 +1,6 @@
 {
   "name": "redux-handlers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compose your reducers with simple and testable functions, not switch statements.",
   "main": "dist/index.js",
   "scripts": {
