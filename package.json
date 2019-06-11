@@ -1,9 +1,10 @@
 {
   "name": "redux-handlers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compose your reducers with simple and testable functions, not switch statements.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "./node_modules/.bin/babel src --presets=@babel/env --out-dir dist",
     "test": "npm test"
   },
   "repository": {
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/AndrewSouthpaw/redux-handlers/issues"
   },
-  "homepage": "https://github.com/AndrewSouthpaw/redux-handlers#readme"
+  "homepage": "https://github.com/AndrewSouthpaw/redux-handlers#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
 }
